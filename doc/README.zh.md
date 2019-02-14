@@ -2,7 +2,7 @@
 
 [![Travis](https://img.shields.io/badge/Python-2.6%7C2.7-blue.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/jeffzh3ng/Fuxi-Scanner.svg)](https://github.com/jeffzh3ng/Fuxi-Scanner/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/jeffzh3ng/Fuxi-Scanner.svg)](https://github.com/threst/Fuxi-Scanner/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/threst/Fuxi-Scanner.svg)](https://github.com/threst/Fuxi-Scanner/stargazers)
 
 ### README [English](../README.md) | 中文
 
@@ -27,27 +27,27 @@ Fuxi-Scanner 是一款开源的网络安全检测工具，适用于中小型企�
 ## 快速开始
 
 ```bash
-git clone --depth 1 https://github.com/jeffzh3ng/Fuxi-Scanner.git fuxi-scanner
+git clone --depth 1 https://github.com/threst/Fuxi-Scanner.git fuxi-scanner
 cd fuxi-scanner
-docker build -t jeffzh3ng/fuxi-scanner .
+docker build -t threst/fuxi-scanner .
 ```
 
 或者
 
 ```bash
-docker pull jeffzh3ng/fuxi-scanner
+docker pull threst/fuxi-scanner
 ```
 
 启动
 
 ```bash
-docker run -dit -p 5000:5000 -v /opt/data:/data jeffzh3ng/fuxi-scanner:latest
+docker run -dit -p 5000:5000 -v /opt/data:/data threst/fuxi-scanner:latest
 ```
 
 或者
 
 ```bash
-docker run -dit -p 5000:5000 -v /opt/data:/data -v /etc/localtime:/etc/localtime jeffzh3ng/fuxi-scanner
+docker run -dit -p 5000:5000 -v /opt/data:/data -v /etc/localtime:/etc/localtime threst/fuxi-scanner
 // 同步主机与 Docker 时间
 ```
 
@@ -135,6 +135,4 @@ AWVS 11 不能同时添加多个 URL 地址，该模块通过调用 AWVS 接口�
 
 - 项目主页: [https://fuxi-scanner.com](https://fuxi-scanner.com)
 - 下载: [.tar](https://github.com/jeffzh3ng/Fuxi-Scanner/tarball/master) or [.zip](https://github.com/jeffzh3ng/Fuxi-Scanner/zipball/master)
-- 邮箱: [jeffzh3ng@gmail.com](mailto:jeffzh3ng@gmail.com)
-- Telegram: [jeffzhang](https://t.me/jeffzhang)
-- 微信: [jeffzhang](https://fuxi-scanner.com/static/images/wx_20180605112603.jpg)
+
